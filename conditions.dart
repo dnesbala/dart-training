@@ -23,19 +23,25 @@ void main() {
   //   print("Invalid day");
   // }
 
-  switch (day) {
-    case 1:
-      print("Sunday");
-      break;
-    case 2:
-      print("Monday");
-      break;
-    case 3:
-      print("Tuesday");
-      break;
-    default:
-      print("Invalid day");
-  }
+  // switch (day) {
+  //   case 1:
+  //     print("Sunday");
+  //     break;
+  //   case 2:
+  //     print("Monday");
+  //     break;
+  //   case 3:
+  //     print("Tuesday");
+  //     break;
+  //   default:
+  //     print("Invalid day");
+  // }
 
-  print("outside of switch");
+  // print("outside of switch");
+
+// Ternary operator
+  //  condition ? expr1 : expr2;
+  // bool isLoggedIn = false;
+  // String message = isLoggedIn ? "Welcome" : "Login";
+  // print(message);
 }
