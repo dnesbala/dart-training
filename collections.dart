@@ -12,13 +12,13 @@ void main() {
   // numbers[2] = 0;
   // print(numbers);
 
-  var evenNumbers = numbers
-      .where(
-        (number) => number % 2 == 0,
-      )
-      .toList();
+  // var evenNumbers = numbers
+  //     .where(
+  //       (number) => number % 2 == 0,
+  //     )
+  //     .toList();
 
-  print(evenNumbers);
+  // print(evenNumbers);
 
   // List<String> names = ["John", "Doe", "Jane", "Doe"];
 
@@ -41,5 +41,18 @@ void main() {
     }
   };
 
-  print(laptop["specifications"]["storage"]);
+  // print(laptop["brand"]);
+
+  // print(laptop.keys.toList());
+  // print(laptop.values.toList());
+
+  // print(laptop.entries.toList().map((element) {
+  //   print(element.key);
+  //   print(element.value);
+  // }));
+
+  laptop.forEach((key, value) {
+    print(key);
+    print(value);
+  });
 }
